@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="styles/main.css">
   <title>Home - Mind-BodyFitness</title>
 </head>
-
+  
 <body>
   <header>
     <nav>
@@ -26,12 +26,13 @@
       </ul>
     </nav>
   </header>
+  <svg><use href="#blue-line"/></svg>
   <main>
     <picture>
       <source media="(min-width: 769px)" srcset="images/unstoppablelaptop.jpg">
       <source media="(min-width: 381px)" srcset="images/unstoppablefitnesstablet43.jpg">
       <source media="(max-width: 380px)" srcset="images/unstoppablefitnessmobile11.jpg">
-      <img src="images/unstoppablelaptop.jpg" alt="Man swinging battle ropes in an empty parking garage at dawn.">
+      <img src="images/unstoppablelaptop.jpg" alt="Man swinging battle ropes in an empty parking garage at dawn." width="1920" height="1283">
     </picture>
     <article>
       <h2>Explore Exercise</h2>
@@ -50,7 +51,7 @@
     images/defylimits-600px.jpg 600w,
     images/defylimits-900px.jpg 900w"
     sizes="50vw"
-    src="images/defylimits-900px.jpg" alt="Man swinging battle ropes" width="900" height="603">
+    src="images/defylimits-900px.jpg" alt="Man swinging battle ropes" width="900" height="601" >
   </main>
   <aside>
     <p>What does it mean to be <strong>FIT</strong>?</p>
@@ -63,7 +64,13 @@
     rest principles, nutrition theories, and more! </p>
   <footer>
     <p>Thanks for checking us out!</p>
+  
   </footer>
+  <svg>
+  <symbol viewBox="0 0 120 120" id="blue-line" >
+    <line x1="10" y1="60" x2="110" y2="60" stroke="blue" />
+  </symbol>
+  </svg>
 </body>
 
 </html>
